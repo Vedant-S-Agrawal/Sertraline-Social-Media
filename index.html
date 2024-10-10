@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplementary Material</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #3A4D42;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #3A4D42;
+            border-bottom: 2px solid #415942;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .pdf-section {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            background-color: #415942;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+        .download-button:hover {
+            background-color: #61805B;
+        }
+        .pdf-container {
+            position: relative;
+            width: 100%;
+            padding-top: 75%; /* 4:3 Aspect Ratio */
+            margin-bottom: 20px;
+        }
+        .pdf-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: #fff;
+            overflow-x: auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+            vertical-align: top;
+            font-size: 14px;
+        }
+        th {
+            background-color: #415942;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .references {
+            list-style-type: decimal;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        .reference-item {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #3A4D42;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            font-size: 14px;
+        }
+        /* Responsive Tables */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            p, th, td, .download-button, footer {
+                font-size: 12px;
+            }
+            .pdf-container {
+                padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            }
+            .download-button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            .pdf-container iframe {
+                height: 100%;
+            }
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Supplementary Materials</h1>
+    </header>
+
+    <div class="container">
+        <!-- Embed PDF Section -->
+        <div class="pdf-section">
+            <a href="poster.pdf" class="download-button" download>Download PDF</a>
+            <div class="pdf-container">
+                <iframe src="poster.pdf" title="Supplemental Poster PDF">
+                    This browser does not support PDFs. Please download the PDF to view it: <a href="poster.pdf">Download PDF</a>.
+                </iframe>
+            </div>
+        </div>
+        <!-- Supplemental Tables -->
+
+        <!-- Supplemental Table 1 -->
+        <h2>Supplemental Table 1: Stats by Video Category</h2>
+        <p>
+            This table provides statistics by video category, including the number of videos (N), total views, likes, and comments.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Video Category</th>
+                    <th>N</th>
+                    <th>Views (millions)</th>
+                    <th>Likes (thousands)</th>
+                    <th>Comments (thousands)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Created by general user</td>
+                    <td>73</td>
+                    <td>71m (71)</td>
+                    <td>15,197k (48)</td>
+                    <td>85k (35)</td>
+                </tr>
+                <tr>
+                    <td>Mentions side effects/toxicity</td>
+                    <td>67</td>
+                    <td>81m (82)</td>
+                    <td>14,977k (47)</td>
+                    <td>93k (38)</td>
+                </tr>
+                <tr>
+                    <td>Mentions personal sertraline use</td>
+                    <td>55</td>
+                    <td>52m (53)</td>
+                    <td>13,462k (42)</td>
+                    <td>62k (26)</td>
+                </tr>
+                <tr>
+                    <td>Used music</td>
+                    <td>54</td>
+                    <td>50m (50)</td>
+                    <td>3,126k (10)</td>
+                    <td>59k (24)</td>
+                </tr>
+                <tr>
+                    <td>Presents sertraline negatively</td>
+                    <td>47</td>
+                    <td>55m (56)</td>
+                    <td>13,432k (42)</td>
+                    <td>63k (26)</td>
+                </tr>
+                <tr>
+                    <td>Used humor</td>
+                    <td>42</td>
+                    <td>47m (47)</td>
+                    <td>4,067k (13)</td>
+                    <td>47k (20)</td>
+                </tr>
+                <tr>
+                    <td>Presents sertraline positively</td>
+                    <td>38</td>
+                    <td>43m (43)</td>
+                    <td>2,389k (7)</td>
+                    <td>60k (25)</td>
+                </tr>
+                <tr>
+                    <td>Mentions efficacy and outcomes</td>
+                    <td>26</td>
+                    <td>47m (47)</td>
+                    <td>2,426k (8)</td>
+                    <td>59k (25)</td>
+                </tr>
+                <tr>
+                    <td>Mentions depression</td>
+                    <td>23</td>
+                    <td>41m (42)</td>
+                    <td>1,885k (6)</td>
+                    <td>56k (23)</td>
+                </tr>
+                <tr>
+                    <td>Mentions before/after results</td>
+                    <td>19</td>
+                    <td>15m (15)</td>
+                    <td>700k (2)</td>
+                    <td>18k (8)</td>
+                </tr>
+                <tr>
+                    <td>Mentions anxiety</td>
+                    <td>18</td>
+                    <td>29m (29)</td>
+                    <td>1,093k (3)</td>
+                    <td>42k (17)</td>
+                </tr>
+                <tr>
+                    <td>Shows sertraline or packaging</td>
+                    <td>18</td>
+                    <td>23m (23)</td>
+                    <td>753k (2)</td>
+                    <td>29k (12)</td>
+                </tr>
+                <tr>
+                    <td>Created by medical professional</td>
+                    <td>17</td>
+                    <td>28m (29)</td>
+                    <td>760k (2)</td>
+                    <td>36k (15)</td>
+                </tr>
+                <tr>
+                    <td>Mentions dose, frequency, timing</td>
+                    <td>17</td>
+                    <td>19m (19)</td>
+                    <td>595k (2)</td>
+                    <td>27k (11)</td>
+                </tr>
+                <tr>
+                    <td>Mentions user credentials</td>
+                    <td>14</td>
+                    <td>22m (22)</td>
+                    <td>621k (2)</td>
+                    <td>28k (12)</td>
+                </tr>
+                <tr>
+                    <td>Mentions sexual side effects</td>
+                    <td>14</td>
+                    <td>24m (24)</td>
+                    <td>1,796k (6)</td>
+                    <td>23k (10)</td>
+                </tr>
+                <tr>
+                    <td>Mentions sertraline mechanism</td>
+                    <td>14</td>
+                    <td>24m (24)</td>
+                    <td>679k (2)</td>
+                    <td>33k (14)</td>
+                </tr>
+                <tr>
+                    <td>Video in Spanish</td>
+                    <td>13</td>
+                    <td>13m (13)</td>
+                    <td>551k (2)</td>
+                    <td>16k (7)</td>
+                </tr>
+                <tr>
+                    <td>Mentions OCD</td>
+                    <td>8</td>
+                    <td>17m (17)</td>
+                    <td>595k (2)</td>
+                    <td>24k (10)</td>
+                </tr>
+                <tr>
+                    <td>Mentions GAD</td>
+                    <td>7</td>
+                    <td>10m (11)</td>
+                    <td>415k (1)</td>
+                    <td>12k (5)</td>
+                </tr>
+                <tr>
+                    <td>Mentions receiving prescription</td>
+                    <td>7</td>
+                    <td>8m (8)</td>
+                    <td>134k (0)</td>
+                    <td>14k (6)</td>
+                </tr>
+                <tr>
+                    <td>Mentions video sources</td>
+                    <td>6</td>
+                    <td>5m (5)</td>
+                    <td>163k (1)</td>
+                    <td>9k (4)</td>
+                </tr>
+                <tr>
+                    <td>Mentions PTSD</td>
+                    <td>6</td>
+                    <td>14m (15)</td>
+                    <td>495k (2)</td>
+                    <td>17k (7)</td>
+                </tr>
+                <tr>
+                    <td>Mentions premenstrual dysphoria</td>
+                    <td>2</td>
+                    <td>5m (5)</td>
+                    <td>316k (1)</td>
+                    <td>7k (3)</td>
+                </tr>
+                <tr>
+                    <td>Mentions costs/insurance</td>
+                    <td>2</td>
+                    <td>0m (0)</td>
+                    <td>15,977k (50)</td>
+                    <td>121k (50)</td>
+                </tr>
+                <tr>
+                    <td>Mentions psychotherapy</td>
+                    <td>2</td>
+                    <td>1m (1)</td>
+                    <td>29k (0)</td>
+                    <td>1k (0)</td>
+                </tr>
+                <tr>
+                    <td>Mentions medication shortage</td>
+                    <td>0</td>
+                    <td>0m (0)</td>
+                    <td>0k (0)</td>
+                    <td>0k (0)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Supplemental Table 2 -->
+        <h2>Supplemental Table 2: Breakdown by Video Creator Type</h2>
+        <p>
+            This table breaks down the content categories by video creator type, including metrics on views, likes, and comments along with their respective percentages.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Content Category</th>
+                    <th>N</th>
+                    <th>Views (millions)</th>
+                    <th>Views %</th>
+                    <th>Likes (thousands)</th>
+                    <th>Likes %</th>
+                    <th>Comments (thousands)</th>
+                    <th>Comments %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Created by medical professional</td>
+                    <td>17</td>
+                    <td>28</td>
+                    <td>29%</td>
+                    <td>760</td>
+                    <td>2%</td>
+                    <td>36</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Mentions user credentials</td>
+                    <td>14</td>
+                    <td>22</td>
+                    <td>22%</td>
+                    <td>621</td>
+                    <td>2%</td>
+                    <td>28</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>Created by general user</td>
+                    <td>73</td>
+                    <td>71</td>
+                    <td>71%</td>
+                    <td>15,197</td>
+                    <td>48%</td>
+                    <td>85</td>
+                    <td>35%</td>
+                </tr>
+                <tr>
+                    <td>Mentions video sources</td>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>5%</td>
+                    <td>163</td>
+                    <td>1%</td>
+                    <td>9</td>
+                    <td>4%</td>
+                </tr>
+                <tr>
+                    <td>Video in Spanish</td>
+                    <td>13</td>
+                    <td>13</td>
+                    <td>13%</td>
+                    <td>551</td>
+                    <td>2%</td>
+                    <td>16</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Mentions personal sertraline use</td>
+                    <td>55</td>
+                    <td>52</td>
+                    <td>53%</td>
+                    <td>13,462</td>
+                    <td>42%</td>
+                    <td>62</td>
+                    <td>26%</td>
+                </tr>
+                <tr>
+                    <td>Mentions depression</td>
+                    <td>23</td>
+                    <td>41</td>
+                    <td>42%</td>
+                    <td>1,885</td>
+                    <td>6%</td>
+                    <td>56</td>
+                    <td>23%</td>
+                </tr>
+                <tr>
+                    <td>Mentions anxiety</td>
+                    <td>18</td>
+                    <td>29</td>
+                    <td>29%</td>
+                    <td>1,093</td>
+                    <td>3%</td>
+                    <td>42</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>Mentions OCD</td>
+                    <td>8</td>
+                    <td>17</td>
+                    <td>17%</td>
+                    <td>595</td>
+                    <td>2%</td>
+                    <td>24</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Mentions PTSD</td>
+                    <td>6</td>
+                    <td>14</td>
+                    <td>15%</td>
+                    <td>495</td>
+                    <td>2%</td>
+                    <td>17</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Mentions GAD</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>11%</td>
+                    <td>415</td>
+                    <td>1%</td>
+                    <td>12</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>Mentions premenstrual dysphoria</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>5%</td>
+                    <td>316</td>
+                    <td>1%</td>
+                    <td>7</td>
+                    <td>3%</td>
+                </tr>
+                <tr>
+                    <td>Presents sertraline positively</td>
+                    <td>38</td>
+                    <td>43</td>
+                    <td>43%</td>
+                    <td>2,389</td>
+                    <td>7%</td>
+                    <td>60</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Presents sertraline negatively</td>
+                    <td>47</td>
+                    <td>55</td>
+                    <td>56%</td>
+                    <td>13,432</td>
+                    <td>42%</td>
+                    <td>63</td>
+                    <td>26%</td>
+                </tr>
+                <tr>
+                    <td>Mentions side effects/toxicity</td>
+                    <td>67</td>
+                    <td>81</td>
+                    <td>82%</td>
+                    <td>14,977</td>
+                    <td>47%</td>
+                    <td>93</td>
+                    <td>38%</td>
+                </tr>
+                <tr>
+                    <td>Mentions sexual side effects</td>
+                    <td>14</td>
+                    <td>24</td>
+                    <td>24%</td>
+                    <td>1,796</td>
+                    <td>6%</td>
+                    <td>23</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Shows sertraline or packaging</td>
+                    <td>18</td>
+                    <td>23</td>
+                    <td>23%</td>
+                    <td>753</td>
+                    <td>2%</td>
+                    <td>29</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>Mentions efficacy and outcomes</td>
+                    <td>26</td>
+                    <td>47</td>
+                    <td>47%</td>
+                    <td>2,426</td>
+                    <td>8%</td>
+                    <td>59</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Mentions receiving prescription</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>8%</td>
+                    <td>134</td>
+                    <td>0%</td>
+                    <td>14</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>Mentions sertraline mechanism</td>
+                    <td>14</td>
+                    <td>24</td>
+                    <td>24%</td>
+                    <td>679</td>
+                    <td>2%</td>
+                    <td>33</td>
+                    <td>14%</td>
+                </tr>
+                <tr>
+                    <td>Mentions before/after results</td>
+                    <td>19</td>
+                    <td>15</td>
+                    <td>15%</td>
+                    <td>700</td>
+                    <td>2%</td>
+                    <td>18</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>Mentions dose, frequency, timing</td>
+                    <td>17</td>
+                    <td>19</td>
+                    <td>19%</td>
+                    <td>595</td>
+                    <td>2%</td>
+                    <td>27</td>
+                    <td>11%</td>
+                </tr>
+                <tr>
+                    <td>Mentions costs/insurance</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0%</td>
+                    <td>15,977</td>
+                    <td>50%</td>
+                    <td>121</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>Mentions psychotherapy</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1%</td>
+                    <td>29</td>
+                    <td>0%</td>
+                    <td>1</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td>Mentions medication shortage</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0%</td>
+                    <td>0</td>
+                    <td>0%</td>
+                    <td>0</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td>Used music</td>
+                    <td>54</td>
+                    <td>50</td>
+                    <td>50%</td>
+                    <td>3,126</td>
+                    <td>10%</td>
+                    <td>59</td>
+                    <td>24%</td>
+                </tr>
+                <tr>
+                    <td>Used humor</td>
+                    <td>42</td>
+                    <td>47</td>
+                    <td>47%</td>
+                    <td>4,067</td>
+                    <td>13%</td>
+                    <td>47</td>
+                    <td>20%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- You can keep or remove the existing tables below as needed -->
+
+        <!-- References -->
+        <h2>References</h2>
+        <ol class="references">
+            <li class="reference-item">Kautzky-Willer A, Leutner M, Harreiter J. Sex differences in type 2 diabetes. Diabetologia. 2023;66(6):986-1002. doi:10.1007/s00125-023-05891-x</li>
+            <li class="reference-item">The All of Us Research Program Investigators. The “All of Us” Research Program. N Engl J Med. 2019;381(7):668-676. doi:10.1056/NEJMsr1809937</li>
+            <li class="reference-item">Qian Gu P, Feng Zeng P, Bimal V. Patel P, Louis C. Tripoli MD. Part D Coverage Gap and Adherence to Diabetes Medications. 2010;16. Accessed September 26, 2024. <a href="https://www.ajmc.com/view/ajmc_10dec_gu_911to918" target="_blank">https://www.ajmc.com/view/ajmc_10dec_gu_911to918</a></li>
+            <li class="reference-item">Ferrannini G, De Bacquer D, Vynckier P, et al. Gender differences in screening for glucose perturbations, cardiovascular risk factor management and prognosis in patients with dysglycaemia and coronary artery disease: results from the ESC-EORP EUROASPIRE surveys. Cardiovasc Diabetol. 2021;20(1):38. doi:10.1186/s12933-021-01233-6</li>
+            <li class="reference-item">Bhuyan SS, Shiyanbola O, Deka P, et al. The Role of Gender in Cost-Related Medication Nonadherence Among Patients with Diabetes. J Am Board Fam Med. 2018;31(5):743-751. doi:10.3122/jabfm.2018.05.180039</li>
+            <li class="reference-item">Raparelli V, Proietti M, Romiti GF, et al. The Sex-Specific Detrimental Effect of Diabetes and Gender-Related Factors on Pre-admission Medication Adherence Among Patients Hospitalized for Ischemic Heart Disease: Insights From EVA Study. Front Endocrinol. 2019;10. doi:10.3389/fendo.2019.00107</li>
+            <li class="reference-item">Garfield R, Orgera K, Damico A. The Coverage Gap: Uninsured Poor Adults in States that Do Not Expand Medicaid.</li>
+            <li class="reference-item">Parker ED, Lin J, Mahoney T, et al. Economic Costs of Diabetes in the U.S. in 2022. Diabetes Care. 2024;47(1):26-43. doi:10.2337/dci23-0085</li>
+        </ol>
+    </div>
+
+    <footer>
+        &copy; Sex-Based Disparities in Cost-Related Medication Nonadherence in Older Adult Patients with Type 2 Diabetes from the All of Us Database
+    </footer>
+
+</body>
+</html>
